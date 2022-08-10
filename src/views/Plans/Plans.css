@@ -1,0 +1,284 @@
+.city-section h2 {
+    font-size: 1.5rem;
+    font-weight: 600
+}
+
+.city-section h2 input,
+.city-section h2 select{
+    background: 0 0;
+    border: none;
+    border-bottom: 2px solid #233141;
+    color: #233141;
+    font-family: inherit !important;
+    font-size: inherit;
+    font-weight: 600;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    width: auto;
+}
+
+.plans-filters {
+    margin-top: 2rem
+}
+
+.plans-filters .form-group {
+    display: inline-block
+}
+
+.plans-filters .form-group input {
+    display: none
+}
+
+.plans-filters .form-group label {
+    border: 2px solid #ddd;
+    border-radius: 50px;
+    color: #233141;
+    cursor: pointer;
+    display: inline-block;
+    font-size: .9rem;
+    font-weight: 700;
+    margin: 0 7px;
+    padding: 5px 20px;
+    width: auto
+}
+
+.plans-filters .form-group input:checked+label,
+.plans-filters .form-group input:hover+label {
+    background-color: #0077db;
+    border-color: #0077db;
+    color: #fff
+}
+
+.plans-filters .connection-filters,
+.plans-filters .month-filters {
+    display: inline-block;
+}
+
+.plans-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    overflow: auto;
+}
+
+.plans-wrapper .loading-spinner {
+    min-height: 255px;
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+.plans {
+    color: #233141;
+    display: flex;
+    align-items: center;
+    flex-flow: row;
+    justify-content: left;
+    width: 100%;
+}
+
+.plans .plan__title,
+.plans .plan__feature,
+.plans .plan__price {
+    color: #233141;
+    font-size: 1rem;
+    margin-bottom: .5rem;
+    text-transform: uppercase;
+}
+
+.plans .plan__feature:last-child {
+    margin: 0;
+}
+
+.plans .plan__main-feature {
+    font-family: Montserrat, Nunito, arial, verdana;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: .5rem;
+}
+
+.plans .plan__price {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.plans .plan__price small {
+    display: block;
+    font-size: 70%;
+    font-weight: 600;
+}
+
+.plans .plan__ribbon {
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    background: #08ca73;
+    color: #fff;
+    font-size: 12px;
+    line-height: 20px;
+    padding: 0 8px;
+    border-radius: 2px;
+    font-weight: 700;
+}
+
+.plans .plan__button {
+    align-items: center;
+    background: white;
+    border: solid 2px #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 1rem;
+    min-width: 215px;
+    min-height: 360px;
+    padding: 1rem;
+    position: relative;
+    width: auto;
+    /* box-shadow: 0px 0px 20px -10px rgba(0, 0, 0, 0.4); */
+    transition: transform 0.5s;
+}
+
+.plans .plan__button:before {
+    border: solid 2px #233141;
+    border-radius: 50%;
+    content: "";
+    display: block;
+    margin: 10px;
+    height: 24px;
+    width: 24px;
+    transform: translateY(-30%);
+}
+
+.plans input[type=radio] {
+    display: none;
+}
+
+.plans input[type=radio]:checked+label:before {
+    background: #233141;
+}
+
+.plans input[type=radio]:checked+label,
+.plans input[type=radio]:hover+label {
+    background: white;
+    border: solid 2px #233141;
+    transform: scale(1.09);
+    transition: transform 0.5s;
+}
+
+/* transform:translateY(-10%); */
+.plans input[type=radio]:checked+label .plans .plan__title,
+.plans input[type=radio]:checked+label .plans .plan__main-feature,
+.plans input[type=radio]:checked+label .plans .plan__price {
+    color: #233141;
+}
+
+.bb-description {
+    color: #233141;
+    background: #eaf0f8;
+    border-radius: 6px;
+    padding: 2rem;
+}
+
+.bb-description h3,
+.bb-description h4 {
+    font-family: Montserrat, Nunito, arial, verdana;
+    font-weight: 600;
+}
+
+.bb-description-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.bb-description-content p:last-child {
+    margin: 0;
+}
+
+.tnc-section {
+    margin-bottom: 2rem;
+}
+
+.tnc-section h4 {
+    font-family: Montserrat, Nunito, arial, verdana;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.tnc-section ul {
+    color: #233141;
+    list-style: circle;
+    margin-left: 1rem;
+}
+
+.plans .plan__feature img {
+    width: 36px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.plans .plan__feature img:last-child {
+    margin-right: 0;
+}
+
+.ott-terms ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.ott-terms ul li {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.ott-terms img {
+    margin: 10px;
+    max-width: 72px !important;
+}
+.ott-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 1400px) {}
+
+@media screen and (min-width: 1600px) {
+    .plans {
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 1900px) {}
+
+/* For mobile phones: */
+@media only screen and (max-width: 768px) {
+    .plans-filters .form-group label {
+        font-size: small;
+        margin-bottom: .5rem;
+        padding: 4px 12px;
+    }
+
+    .plans {
+        flex-flow: row;
+        justify-content: left;
+        overflow: auto
+    }
+
+    .plans .plan__button {
+        min-width: 170px;
+    }
+
+    .plans .plan__button:before {
+        width: 18px;
+        height: 18px;
+    }
+
+    .ott-terms img {
+        width: 48px !important;
+    }
+}

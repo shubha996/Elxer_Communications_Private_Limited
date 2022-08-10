@@ -1,0 +1,16 @@
+.inner-carousel{
+    display: flex;
+    align-items: center;
+}
+.carousel{
+    overflow: hidden;
+}
+.item{
+    min-width: 240px;
+    margin: 0 20px;
+    cursor: grab;
+}
+.item img{
+    height: 100%;
+    width: 100%;
+}

@@ -1,0 +1,13 @@
+#iframe-div{
+    margin-left: 2.5%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0 10px 0;
+    box-shadow: 0 0 30px 0 rgba(196, 193, 193, 0.7);
+}
+.medium .btn-text {
+    padding: 12px 14px;
+    letter-spacing: .02rem;
+}

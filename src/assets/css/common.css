@@ -1,0 +1,155 @@
+img {
+    pointer-events: none;
+}
+
+.notification-bar {
+    background: #233141;
+    padding: .6em 1em;
+}
+
+.notification-bar .button a,
+.notification-bar .button a:hover,
+.notification-bar .button a:visited,
+.notification-bar .button a:focus {
+    background: #fff !important;
+    color: #233141 !important;
+    font-size: .9rem;
+    font-weight: 600;
+}
+
+.topbar {
+    font-size: 0.9rem;
+}
+
+.topbar a {
+    color: #fff;
+    font-weight: 600;
+}
+
+.hiring-btn,
+.topbar-btn {
+    background: none;
+}
+
+.topbar-btn:last-child {
+    margin: 0;
+}
+
+.header.fixed {
+    background: rgba(255, 255, 255, 0.83);
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+}
+
+.header .logo {
+    padding: .5rem 0;
+}
+
+.header .logo span {
+    color: #233141;
+    font-weight: 600;
+}
+
+.sf-menu a {
+    background: -webkit-gradient(linear, left top, right top, color-stop(50%, #233141), color-stop(50%, transparent));
+    background: linear-gradient(90deg, #233141 50%, transparent 0);
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: 205% .1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: .5rem 0 .2rem;
+}
+
+.sf-menu>li>a:hover,
+.sf-menu li.current-menu-ancestor>a,
+.sf-menu li.current-menu-item>a {
+    background-position: 0% 100% !important;
+    color: #233141;
+}
+
+.navbar-btn {
+    background: transparent !important;
+    border: 1px solid #233141;
+    color: #233141 !important;
+}
+
+.navbar-btn:hover {
+    background: #233141 !important;
+    color: #fff !important;
+}
+
+button {
+    line-height: 1.5rem;
+}
+
+.btn-primary,
+button,
+input[type=button],
+input[type=reset],
+input[type=submit] {
+    background: #233141;
+    border: 1px solid #233141;
+    border-radius: 4px;
+    color: #fff;
+    font-family: Nunito, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600 !important;
+    letter-spacing: .02rem;
+}
+
+.btn-primary:hover,
+button:hover,
+input[type=button]:hover,
+input[type=reset]:hover,
+input[type=submit]:hover,
+.flex_button_one:hover,
+.flex_button_three:hover,
+.flex_button_two:hover {
+    background: #222;
+    border-color: #222;
+}
+
+.medium .btn-text {
+    padding: 14px 36px;
+    letter-spacing: .02rem;
+}
+
+.flex-title h2 {
+    color: #233141 !important;
+}
+
+.flex_button_one,
+.flex_button_three,
+.flex_button_two {
+    background: #233141;
+    color: #fff;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.flex-caption-inner {
+    width: 60%
+}
+
+.flex-control-nav {
+    bottom: 0;
+}
+
+.flex-control-paging li a {
+    width: 8px;
+    height: 8px;
+}
+
+.flex-control-paging li a.flex-active {
+    background: #233141;
+    width: 3rem;
+}
+
+.corporate-hero-banner,
+#subheader {
+    background-color: #eaf0f8;
+}
+
+
+

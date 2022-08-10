@@ -1,0 +1,205 @@
+.toggle_content td{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.toggle_content table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+/* --------------------------------------------Support.js-------------------------------------------- */
+.app-banner {
+    background: #e4ebef;
+    border-radius: 8px;
+    margin: 0 auto 1rem;
+    position: relative;
+}
+
+.app-banner .content {
+    color: #222;
+    padding: 0 2rem;
+}
+
+.app-banner .content img {
+    text-align: center;
+}
+
+.app-banner .content .one_third h4 {
+    color: #233141;
+    margin: 0;
+}
+
+.app-banner .content .download-app {
+    max-width: 10rem;
+}
+
+.app-banner .content .app-screen {
+    max-width: 12rem;
+    margin-top: -45px;
+}
+
+@media only screen and (max-width:768px) {
+    .app-banner {
+        background-position: inherit;
+        text-align: center;
+    }
+
+    .app-banner .content .one_third h4 {
+        color: #fff;
+    }
+
+    .app-banner .content .app-screen {
+        max-width: 12rem;
+        margin-top: 0;
+    }
+}
+
+/* -------------------------------------KnowledgeBase.js----------------------------------------------- */
+.kb-header {
+    background-color: #e4ebef;
+    background-size: cover !important;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, .05);
+    -webkit-transition: height .3s ease-in;
+    -moz-transition: height .3s ease-in;
+    -o-transition: height .3s ease-in;
+    transition: height .3s ease-in;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.kb-header .title {
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
+}
+
+.kb-links {
+    text-align: center;
+}
+
+.kb-links .title {
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.kb-links a:hover .icon svg {
+    fill: #000;
+}
+
+.kb-links .icon svg {
+    fill: #0077db;
+    height: 66px;
+    width: 66px;
+    margin-bottom: 10px;
+}
+
+.kb-articles .title {
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.kb-articles .articles .heading {
+    font-weight: 600;
+}
+
+.kb-articles .articles .toggle-title {
+    border-radius: 4px;
+}
+
+.kb-articles .articles .toggle-title:not(.active) {
+    background: transparent;
+    color: #333;
+}
+
+.kb-articles .articles .toggle-title:not(.active):hover {
+    background: rgba(0, 0, 0, .05);
+}
+
+.kb-articles .articles .toggle_content {
+    padding: 10px;
+}
+
+@media only screen and (max-width: 480px) and (min-width: 320px) {
+    .kb-header .title {
+        font-size: 1.5rem !important;
+    }
+
+    .kb-articles .title {
+        font-size: 1rem !important;
+    }
+
+    .kb-links .one_half,
+    .kb-links .one_third,
+    .kb-links .two_third {
+        width: 30.66%;
+    }
+
+    .kb-links .icon svg {
+        height: 36px;
+        width: 36px;
+    }
+
+    .kb-links .title {
+        font-size: .9rem !important;
+    }
+}
+.toggle_content {
+    list-style: disc;
+    font-size: 1rem;
+    animation: growDown 300ms ;
+    transform-origin: top;
+
+}
+@keyframes growDown {
+    0%{transform: scaleY(0);}
+    100%{transform: scaleY(1);}
+}
+#togglebtn{
+}
+.toggle-title{
+    display: flex;
+    justify-content: space-between;
+}
+.toggleContentUl{
+    margin-left: 20px;
+    list-style: disc;
+}
+
+.div-toggle{
+    display: none;
+    padding: 20px;
+}
+.div-toggle li {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.toggler{
+    display: block;
+}
+.untoggler{
+    display: none;
+}
+
+/* -------------------------------KBVideos.js--------------------------------- */
+.kb-articles .btn-text {
+    color: #fff;
+}
+
+.kb-articles .heading {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.kb-articles video {
+    background: #0077db;
+    border: 1px solid #ddd;
+    width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 480px) and (min-width: 320px) {
+    .kb-articles .heading {
+        font-size: 1rem !important;
+    }
+}

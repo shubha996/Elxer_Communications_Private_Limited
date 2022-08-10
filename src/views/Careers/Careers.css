@@ -1,0 +1,937 @@
+.font-montserrat {
+    font-family: Montserrat, Helvetica, Arial, sans-serif
+}
+
+.text-bold {
+    font-weight: 600
+}
+
+.text-upper {
+    text-transform: uppercase
+}
+
+.career-hero {
+    background: #f5fafd;
+    text-align: center
+}
+
+.career-hero h2 {
+    font-size: 3rem
+}
+
+.career-hero img {
+    border-radius: 1rem;
+    box-shadow: 15px 15px 0 0 #23314144;
+    width: 60%
+}
+
+.career-hero>div>div:after {
+    content: "";
+    position: absolute;
+    width: 133px;
+    height: 100%;
+    bottom: -55px;
+    right: 155px;
+    display: block;
+    background-color: transparent;
+    background-image: radial-gradient(#000 14%, transparent 0);
+    background-size: 15px 15px;
+    background-position: 15px 15px, 15px 15px;
+    z-index: -1
+}
+
+.why-work-with-us {
+    color: #222;
+    font-size: 1.2rem;
+    line-height: 1.5
+}
+
+.why-work-with-us .values {
+    background: #f5fafd;
+    border-radius: 100px
+}
+
+@media screen and (max-width:767px) {
+    .career-hero img {
+        width: 85%
+    }
+
+    .career-hero>div>div:after {
+        display: none
+    }
+
+    .career-hero .medium .btn-text {
+        padding: 14px 28px
+    }
+
+    .why-work-with-us .p-40 {
+        padding: 20px !important
+    }
+}
+
+@media screen and (min-width:768px) {
+    .d-flex {
+        display: flex;
+        align-items: center;
+        justify-content: center
+    }
+
+    .why-work-with-us .values .one_half {
+        margin: 0;
+        width: 50%
+    }
+}
+
+.why-work-with-us .benefits-container {
+    color: #222;
+    display: grid;
+    gap: 2rem;
+    position: relative;
+    max-width: 90%;
+    margin: 0 auto
+}
+
+.why-work-with-us .benefit {
+    border-radius: 8px;
+    padding: 1.5rem
+}
+
+.why-work-with-us .benefit .title {
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    margin-bottom: .5rem;
+    line-height: 1.5
+}
+
+.why-work-with-us .benefit p {
+    font-size: 1rem
+}
+
+.why-work-with-us .benefit p:last-child {
+    margin: 0
+}
+
+.benefit figure img {
+    height: 64px;
+    width: 64px
+}
+
+@media screen and (min-width:768px) {
+    .why-work-with-us .benefits-container {
+        grid-template-columns: repeat(3, 1fr)
+    }
+}
+
+.career-opportunities {
+    background: #233141
+}
+
+.career-opportunities a,
+.career-opportunities a:active,
+.career-opportunities a:focus {
+    color: #233141
+}
+
+.career-opportunities a:hover {
+    color: #222
+}
+
+.our-team {
+    color: #222
+}
+
+.our-team .team-container {
+    align-items: center;
+    display: grid;
+    gap: 3rem 2rem;
+    position: relative
+}
+
+.team-container .team {
+    background: #f5fafd;
+    border-radius: 8px;
+    padding: 2rem;
+    text-align: justify;
+    text-justify: inter-word;
+    height: 100%
+}
+
+.team-container .team .image {
+    border-radius: 50%;
+    margin: 0 auto;
+    max-height: 144px;
+    max-width: 144px;
+    overflow: hidden;
+    position: relative;
+    width: 100%
+}
+
+.team-container .team .image img {
+    transition: all .25s ease
+}
+
+.team-container .team:hover .image img {
+    transform: scale(1.1);
+    transform-origin: center center
+}
+
+.team-container .team .details {
+    margin-top: 1rem;
+    text-align: center
+}
+
+.team-container .team .department,
+.team-container .team .details .title {
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    margin-bottom: .5rem;
+    line-height: 1.2
+}
+
+.team-container .team .department {
+    margin-bottom: 1.5rem
+}
+
+.team-container .team .details .designation {
+    color: #555;
+    font-size: .75rem;
+    font-weight: 600;
+    font-style: italic;
+    margin-bottom: .5rem;
+    letter-spacing: 1px;
+    text-transform: uppercase
+}
+
+.team-container .team .details p {
+    margin-bottom: .5rem
+}
+
+.team-container .team .details .btn-text {
+    padding: 8px 10px
+}
+
+@media screen and (min-width:768px) {
+    .our-team .team-container {
+        grid-template-columns: repeat(2, 1fr)
+    }
+}
+
+.employee-quotes {
+    background: #f5fafd
+}
+
+.employee-quote {
+    margin: 0;
+    padding-bottom: 0;
+    color: #233141
+}
+
+.employee-quote .employee-picture {
+    border-radius: 6px;
+    display: block;
+    margin: 0 auto;
+    max-width: none;
+    width: 150px;
+    height: auto;
+    box-shadow: -10px 10px 0 0 #23314144
+}
+
+.employee-quotes .owl-carousel .owl-item img {
+    width: 150px
+}
+
+.employee-quote .employee-text {
+    margin-top: 2rem;
+    text-align: center
+}
+
+.employee-quote .quote {
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.4
+}
+
+.employee-quote .details {
+    margin-top: 1rem
+}
+
+@media screen and (min-width:768px) {
+    .employee-quote {
+        display: flex;
+        align-items: center;
+        padding: 1rem 10rem
+    }
+
+    .employee-quote .employee-picture {
+        margin: 0;
+        margin-right: 30px;
+        width: 200px
+    }
+
+    .employee-quotes .owl-carousel .owl-item img {
+        width: 200px
+    }
+
+    .employee-quote .employee-text {
+        margin-top: 0;
+        padding-left: 30px;
+        text-align: left
+    }
+
+    .employee-quote .quote {
+        font-size: 1.4rem
+    }
+
+    .employee-quote .details {
+        font-size: 1.1rem;
+        margin-top: 2rem
+    }
+}
+
+#employee-quotes .owl-nav .owl-next,
+#employee-quotes .owl-nav .owl-prev {
+    background: #233141;
+    position: absolute;
+    top: 40%;
+    padding: .4rem 1rem;
+    border-radius: 50px;
+    box-shadow: 3px 14px 25px -10px #92b4d0;
+    transition: background .5s ease 0s
+}
+
+#employee-quotes .owl-nav .owl-prev {
+    left: 15px
+}
+
+#employee-quotes .owl-nav .owl-next {
+    right: 15px
+}
+
+#employee-quotes .owl-nav .owl-next:after,
+#employee-quotes .owl-nav .owl-prev:after {
+    content: "\f104";
+    color: #fff;
+    font-family: FontAwesome;
+    font-size: 30px
+}
+
+#employee-quotes .owl-nav .owl-next:after {
+    content: "\f105"
+}
+
+.wave {
+    min-width: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    height: 38px;
+    z-index: 1;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    fill: rgb(255, 255, 255);
+}
+
+/* ----------------------------------Internship.js----------------------------------- */
+.font-montserrat {
+    font-family: Montserrat, Helvetica, Arial, sans-serif
+}
+
+.text-bold {
+    font-weight: 600
+}
+
+.text-upper {
+    text-transform: uppercase
+}
+
+.internship-hero {
+    background: #233141;
+    max-height: 44vh;
+    min-height: 31rem;
+    overflow: hidden;
+    position: relative
+}
+
+.internship-hero img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    opacity: .5;
+    transition: opacity .5s ease 0s
+}
+
+.internship-hero .content {
+    bottom: 6rem;
+    position: absolute;
+    width: 100%;
+    text-align: center
+}
+
+.internship-hero .content .heading {
+    color: #fff;
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
+    font-size: 4rem;
+    margin: 0 2rem;
+    transform: translateY(6rem);
+    animation: up 1s linear forwards;
+    display: inline-block;
+    width: 75%
+}
+
+@keyframes up {
+    100% {
+        transform: translateY(0)
+    }
+}
+
+@media screen and (max-width:767px) {
+    .internship-hero {
+        min-height: 16rem
+    }
+
+    .internship-hero .content .heading {
+        font-size: 1.8rem
+    }
+}
+
+.career-hero {
+    background: #f5fafd;
+    text-align: center
+}
+
+.career-hero h2 {
+    font-size: 3rem
+}
+
+.career-hero img {
+    border-radius: 1rem;
+    box-shadow: -10px 10px 0 0 #23314144;
+    max-width: 100%
+}
+
+.why-work-with-us {
+    color: #222;
+    font-size: 1.2rem
+}
+
+.why-work-with-us .values {
+    background: #f5fafd;
+    border-radius: 100px
+}
+
+@media screen and (max-width:767px) {
+    .why-work-with-us .p-40 {
+        padding: 20px !important
+    }
+}
+
+@media screen and (min-width:768px) {
+    .d-flex {
+        display: flex;
+        align-items: center;
+        justify-content: center
+    }
+
+    .why-work-with-us .values .one_half {
+        margin: 0;
+        width: 50%
+    }
+}
+
+.filters {
+    margin-bottom: 1.5rem
+}
+
+.filters ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center
+}
+
+.filters ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px 10px
+}
+
+.filters ul li:first-child {
+    margin-left: 0
+}
+
+.filters ul a {
+    background: 0 0;
+    border: 0;
+    border-bottom: 3px solid transparent;
+    border-radius: 0;
+    color: #233141;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 20px
+}
+
+.filters ul a.active,
+.filters ul a:hover {
+    border-color: #233141
+}
+
+@media screen and (max-width:767px) {
+    .filters ul li {
+        margin-top: 10px
+    }
+}
+
+.jobs a {
+    display: block
+}
+
+.jobs a .job {
+    list-style: none;
+    border-radius: 4px;
+    border: 1px solid #23314144;
+    padding: 20px;
+    margin-top: 30px
+}
+
+.jobs a:hover .job {
+    background: #233141;
+    border-color: #233141;
+    color: #fff
+}
+
+.jobs a .job h5 {
+    color: #233141;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-top: 8px;
+    margin-bottom: 7px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden
+}
+
+.jobs a:hover .job .location,
+.jobs a:hover .job h5 {
+    color: #fff
+}
+
+.jobs a .job .location {
+    color: #233141;
+    display: block;
+    float: left;
+    padding: 4px 0
+}
+
+.jobs a .job .department {
+    background: #e6f0f6;
+    border-radius: 4px;
+    color: #233141;
+    display: block;
+    float: right;
+    font-size: .9rem;
+    padding: 4px 8px
+}
+
+/* ------------------------------OpenPositions.js-------------------------------- */
+.font-montserrat {
+    font-family: Montserrat, Helvetica, Arial, sans-serif
+}
+
+.text-bold {
+    font-weight: 600
+}
+
+.text-upper {
+    text-transform: uppercase
+}
+
+.career-hero-open-positions {
+    background: #f5fafd;
+    text-align: center
+}
+
+.career-hero-open-positions h2 {
+    font-size: 3rem
+}
+
+.career-hero-open-positions img {
+    border-radius: 1rem;
+    box-shadow: -10px 10px 0 0 #23314144;
+    max-width: 100%
+}
+
+.why-work-with-us {
+    color: #222;
+    font-size: 1.2rem
+}
+
+.why-work-with-us .values {
+    background: #f5fafd;
+    border-radius: 100px
+}
+
+@media screen and (max-width:767px) {
+    .why-work-with-us .p-40 {
+        padding: 20px !important
+    }
+}
+
+@media screen and (min-width:768px) {
+    .d-flex {
+        display: flex;
+        align-items: center;
+        justify-content: center
+    }
+
+    .why-work-with-us .values .one_half {
+        margin: 0;
+        width: 50%
+    }
+}
+
+.filters {
+    margin-bottom: 1.5rem
+}
+
+.filters ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center
+}
+
+.filters ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px 10px
+}
+
+.filters ul li:first-child {
+    margin-left: 0
+}
+
+.filters ul a {
+    background: 0 0;
+    border: 0;
+    border-bottom: 3px solid transparent;
+    border-radius: 0;
+    color: #233141;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 20px
+}
+
+.filters ul a.active,
+.filters ul a:hover {
+    border-color: #233141
+}
+
+@media screen and (max-width:767px) {
+    .filters ul li {
+        margin-top: 10px
+    }
+}
+
+.jobs a {
+    /* display: none; */
+}
+
+.jobs a .job {
+    list-style: none;
+    border-radius: 4px;
+    border: 1px solid #23314144;
+    padding: 20px;
+    margin-top: 30px
+}
+
+.jobs a:hover .job {
+    background: #233141;
+    border-color: #233141;
+    color: #fff
+}
+
+.jobs a .job h5 {
+    color: #233141;
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-top: 8px;
+    margin-bottom: 7px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden
+}
+
+.jobs a:hover .job .location,
+.jobs a:hover .job h5 {
+    color: #fff
+}
+
+.jobs a .job .location {
+    color: #233141;
+    display: block;
+    float: left;
+    padding: 4px 0
+}
+
+.jobs a .job .department {
+    background: #e6f0f6;
+    border-radius: 4px;
+    color: #233141;
+    display: block;
+    float: right;
+    font-size: .9rem;
+    padding: 4px 8px
+}
+
+/* -----------------------------------JobDescription.js----------------------------------------- */
+.font-montserrat {
+    font-family: Montserrat, Helvetica, Arial, sans-serif
+}
+
+.text-bold {
+    font-weight: 600
+}
+
+.text-upper {
+    text-transform: uppercase
+}
+
+.career-hero {
+    background: #f5fafd;
+    text-align: center
+}
+
+.career-hero h2 {
+    font-size: 3rem
+}
+
+.career-hero img {
+    border-radius: 1rem;
+    box-shadow: -10px 10px 0 0 #23314144
+}
+
+.why-work-with-us {
+    color: #222;
+    font-size: 1.2rem
+}
+
+.why-work-with-us .values {
+    background: #f5fafd;
+    border-radius: 100px
+}
+
+@media screen and (max-width:767px) {
+    .why-work-with-us .p-40 {
+        padding: 20px !important
+    }
+}
+
+@media screen and (min-width:768px) {
+    .d-flex {
+        display: flex;
+        align-items: center;
+        justify-content: center
+    }
+
+    .why-work-with-us .values .one_half {
+        margin: 0;
+        width: 50%
+    }
+}
+
+.d-block {
+    display: block
+}
+
+.share-job {
+    border: 1px solid #23314144;
+    border-radius: 4px;
+    letter-spacing: .02rem;
+    margin-top: 1rem;
+    padding: .5rem
+}
+
+.share-job h4 {
+    font-size: 1rem
+}
+
+.share-job ul {
+    list-style: none;
+    margin: 0 0 .5rem
+}
+
+.share-job li {
+    display: inline-block;
+    margin: 0 2px
+}
+
+.share-job li a {
+    background: #233141;
+    border-radius: 4px;
+    color: #fff;
+    padding: 5px 6px
+}
+
+.share-job li a.linkedin {
+    background: #007bb6
+}
+
+.share-job li a.linkedin:hover {
+    background: #005983
+}
+
+.share-job li a.facebook {
+    background: #306199
+}
+
+.share-job li a.facebook:hover {
+    background: #244872
+}
+
+.share-job li a.twitter {
+    background: #26c4f1
+}
+
+.share-job li a.twitter:hover {
+    background: #0eaad6
+}
+
+.alert-danger {
+    background-color: #f8d7da;
+    border-color: #f5c6cb
+}
+
+.alert-success {
+    background-color: #d4edda;
+    border-color: #c3e6cb
+}
+
+.alert {
+    position: relative;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem
+}
+
+.job-application-form {
+    display: none;
+    background: #f5fafd;
+    border-radius: 6px;
+    font-size: 1rem;
+    margin: 5rem auto 0;
+    max-width: 900px;
+    position: relative;
+    padding: 2rem 1rem 1rem
+}
+
+.job-application-form h2 {
+    font-size: 1.8rem;
+    margin-top: 0;
+    position: absolute;
+    width: 100%;
+    top: -1.5rem
+}
+
+.job-application-form-inner {
+    padding: 0 2rem 1rem
+}
+
+.job-application-form .ats-column__1_2.one_half {
+    margin-right: -5px !important;
+    padding-right: 10px
+}
+
+.job-application-form input:not(input[type=file]),
+.job-application-form select,
+.job-application-form textarea {
+    color: #222;
+    font-size: 1rem !important;
+    height: auto;
+    margin: 0 !important;
+    padding: 1rem 0;
+    background: 0 0 !important;
+    border: none !important;
+    border-bottom: 2px solid #ddd !important;
+    border-radius: 0 !important;
+    width: 100% !important
+}
+
+.job-application-form input:not(input[type=file]):focus,
+.job-application-form select:focus,
+.job-application-form textarea:focus {
+    border-color: #233141 !important
+}
+
+.job-application-form .at-checkaval__inputs {
+    margin-bottom: 1.5rem !important
+}
+
+.job-application-form .at-checkaval__inputs:last-child {
+    margin-bottom: 0 !important
+}
+
+@media screen and (max-width:767px) {
+    .job-application-form .ats-column__1_2.one_half {
+        width: 100%
+    }
+
+    .job-application-form-inner {
+        padding: 0 .5rem .5rem
+    }
+
+    .job-application-form input,
+    .job-application-form select,
+    .job-application-form textarea {
+        width: inherit !important
+    }
+}
+
+.job-application-form input[type=file]::-webkit-file-upload-button {
+    visibility: hidden
+}
+
+.job-application-form input[type=file]::before {
+    background: #233141;
+    border: 1px solid #233141;
+    border-radius: 4px;
+    color: #fff;
+    content: "Upload " attr(data-type);
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 600;
+    outline: 0;
+    padding: 5px 14px;
+    white-space: nowrap;
+    -webkit-user-select: none
+}
+
+.job-application-form input[type=file] {
+    width: -webkit-fill-available
+}
+
+.job-application-form input[type=file]:active {
+    outline: 0
+}
+
+.job-application-form input[type=file]~small {
+    display: block;
+    margin-top: 10px
+}
+.unorderedListJD li{
+    list-style:disc!important;
+}

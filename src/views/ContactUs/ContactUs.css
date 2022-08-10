@@ -1,0 +1,33 @@
+#checkIcon{
+    color: green;
+    font-size: 40px;
+    position: absolute;
+    right: 90px;
+    top: 253px;
+    display: none;
+}
+#clearIcon{
+    color: red;
+    font-size: 40px;
+    position: absolute;
+    right: 100px;
+    top: 253px;
+    display: none;
+}
+#validateBTN{
+    background-color: #233141;
+    font-family: Nunito, Helvetica, Arial, sans-serif;
+    font-size: 0.8rem;
+    color: #fff;
+    position: absolute;
+    top: 257px;
+    right: 16px;
+}
+#formActionMessage{
+    border: 1px solid black;
+    width: fit-content;
+    padding: 10px 20px;
+    border-color: blue;
+    color: blue;
+    display: none;
+}

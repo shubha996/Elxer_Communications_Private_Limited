@@ -1,0 +1,13 @@
+.one{
+    font-size: 1rem;
+}
+.one p{
+    margin-bottom: 25px;
+}
+.last {
+    font-size: 1rem;
+}
+.styleList li{
+    list-style-type: disc;
+    margin-left: 20px;
+}

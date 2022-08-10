@@ -1,0 +1,46 @@
+/* for business.js */
+.industries-served .box {
+    min-height: 385px;
+}
+
+/* for elxer enterprise section */
+.rounded{
+    border-radius: 2.25rem !important;
+}
+.btn-text{
+    color: #fff;
+}
+.medium .btn-text{
+    padding: 6px 36px;
+}
+
+/* for Broadband.js */
+.why-choose-features p {
+    font-size: 1.1rem;
+}
+
+@media only screen and (max-width:375px) {
+    header {
+        display: none;
+    }
+}
+
+/* for LeasedLine.js */
+.why-choose-features p {
+    font-size: 1.1rem;
+}
+
+#enterprise-back-btn{
+    color: #fff;
+}
+
+@media only screen and (max-width:375px) {
+    header {
+        display: none;
+    }
+}
+
+.listStyle ul :nth-child(4),
+.listStyle ul :nth-child(5){
+    list-style-type: none;
+}
